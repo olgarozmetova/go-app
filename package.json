@@ -1,0 +1,15 @@
+{
+  "name": "go",
+  "version": "1.0.0",
+  "description": "GO! App to organize your workouts",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
